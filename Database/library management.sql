@@ -34,7 +34,7 @@ CREATE TABLE borrowed_books (
     FOREIGN KEY (book_id) REFERENCES books(book_id)
 );
 
--- Admin Table (optional)
+---- Admin Table (optional)
 CREATE TABLE admins (
     admin_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) UNIQUE,
