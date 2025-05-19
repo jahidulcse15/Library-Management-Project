@@ -22,7 +22,7 @@ CREATE TABLE books (
     copies_available INT DEFAULT 1
 );
 
--- Borrowed Books Table
+---- Borrowed Books Table
 CREATE TABLE borrowed_books (
     borrow_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
