@@ -11,7 +11,7 @@ CREATE TABLE users (
     membership_date DATE DEFAULT CURRENT_DATE
 );
 
--- Books Table
+
 CREATE TABLE books (
     book_id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(200) NOT NULL,
@@ -22,7 +22,7 @@ CREATE TABLE books (
     copies_available INT DEFAULT 1
 );
 
----- Borrowed Books Table
+
 CREATE TABLE borrowed_books (
     borrow_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
